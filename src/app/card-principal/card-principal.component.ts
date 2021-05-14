@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardPrincipalComponent implements OnInit {
 
+  mostrarFonte = false;
+
   constructor() { }
 
   ngOnInit(): void {
