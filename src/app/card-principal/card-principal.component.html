@@ -10,6 +10,10 @@
     </ul>
 </div>
 
+<button *ngIf="!mostrarFonte" (click)="exibirFonte()">
+    Exibir fonte
+</button>
+
 <p *ngIf="mostrarFonte">
     Fonte: eu mesmo
 </p>

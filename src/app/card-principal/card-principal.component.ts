@@ -16,4 +16,7 @@ export class CardPrincipalComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  exibirFonte(){
+  }
+
 }
