@@ -4,6 +4,10 @@
 
 <div>
     Esta é a melhor aplicação Angular
+
+    <ul *ngFor = "let cor of arrayCores">
+        <li>{{ cor }}</li>
+    </ul>
 </div>
 
 <p *ngIf="mostrarFonte">
