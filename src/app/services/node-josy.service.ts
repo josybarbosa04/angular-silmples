@@ -8,8 +8,8 @@ import { Pessoa } from '../classes/pessoa';
   providedIn: 'root'
 })
 export class NodeJosyService {
-  //url = "https://nodejosy.herokuapp.com/";
-  url = "http://localhost:8080/";
+  url = "https://nodejosy.herokuapp.com/";
+  // url = "http://localhost:8080/";
 
   constructor(private httpClient: HttpClient) { }
   
